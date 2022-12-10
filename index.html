@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="magsafe">
+        <span class="mlet">M</span>
+        <span class="title">agsafe</span>
+    </div>
+    <a class="arrow material-symbols-outlined" href="#sec">arrow_downward</a>
+</div>
+
+<div class="second-page" id="sec">
+    <img src="magsafe2.jpg" alt="" class="gallery" width="500px" height="550px" data-aos="fade-right">
+    <div class="form" data-aos="fade-left">
+        <p>Введите email</p>
+        <input type="text" placeholder="example@gmail.com">
+        <p>Введите ФИО</p>
+        <input type="text" placeholder="Иван Иванович Иванов">
+        <p>Введите номер телефона</p>
+        <input type="text" placeholder="+380 (888) 888 888 88">
+        <div class="radios">
+            <div class="radios__top">
+            <input type="radio" id="nalozh" checked name="choose__shipping">
+            <span class="material-symbols-outlined">
+                check
+                </span>
+            <label for="nalozh" checked>Наложенным платежем</label>
+            </div>
+            
+            <div class="radios__bottom">
+                
+            <input type="radio" id="simple" name="choose__shipping">
+            <span class="material-symbols-outlined">
+                check
+                </span>
+            <label for="simple">Обычной доставкой</label>
+        </div>
+        </div>
+        <p>Введите вашу область</p>
+        <input type="text" placeholder="Одесская, Киевская и тд.">
+        <p>Введите город</p>
+        <input type="text" placeholder="Одесса, Киев и тд.">
+        <p>Введите номер отделения Новой Почты</p>
+        <input type="text" placeholder="Отделение №1">
+    </div>
+</div>
+   
+    <script src="js.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
+</body>
+</html>
